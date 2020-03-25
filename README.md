@@ -15,6 +15,7 @@ _If you're using docker image, be advise to create a volume to mount data direct
 > npm install --global yo generator-minecraft-addon
 
 * On your computer, head to this project your just downloaded and run
+> npm install
 > npm run packageaddon
 
 * This will create a .mcpack and .mcaddon inside the folder ./out/packaged/
