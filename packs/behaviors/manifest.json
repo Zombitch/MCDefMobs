@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "MCDefMobs behavior pack, mobs attacks only if you attack them",
+        "name": "MCDefMobs Behavior Pack",
+        "uuid": "ffffac7b-bcc6-474c-a257-21aef6601778",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "MCDefMobs behavior pack",
+            "type": "data",
+            "uuid": "eeeeac7b-bcc6-474c-a257-21aef6601778",
+            "version": [1, 0, 0]
+        }
+    ]
+}
