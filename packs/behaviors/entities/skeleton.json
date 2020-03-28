@@ -146,6 +146,76 @@
         "entity_types": [
           {
             "filters": {
+              "all_of":[
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                }
+              ],
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "wooden_sword"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "iron_sword"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "stone_sword"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "diamond_sword"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "golden_sword"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "trident"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "crossbow"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "bow"
+                }
+              ]
+            },
+            "max_dist": 16
+          },
+          {
+            "filters": {
               "test": "is_family",
               "subject": "other",
               "value": "irongolem"

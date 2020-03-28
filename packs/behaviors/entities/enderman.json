@@ -103,6 +103,20 @@
               "operator": "not",
               "value": "carved_pumpkin"
             }
+          ],
+          "any_of": [
+            {
+              "test": "is_biome",
+              "subject": "other",
+              "operator": "==",
+              "value": "the_nether"
+            },
+            {
+              "test": "is_biome",
+              "subject": "other",
+              "operator": "==",
+              "value": "the_end"
+            }
           ]
         }
       },
